@@ -101,8 +101,8 @@ public class MyLauncher extends AppCompatActivity {
             TextView nameView;
             public AppsViewHolder(@NonNull View itemView) {
                 super(itemView);
-                iconView=findViewById(R.id.app_icon_id);
-                nameView = findViewById(R.id.app_name_id);
+                iconView=itemView.findViewById(R.id.app_icon_id);
+                nameView = itemView.findViewById(R.id.app_name_id);
             }
         }
     }
